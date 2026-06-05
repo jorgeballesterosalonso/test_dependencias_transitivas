@@ -14,11 +14,11 @@
   <name>vuln-lib1</name>
 
   <dependencies>
-    <!-- Intentionally use a version of Commons Collections with known deserialization vulnerabilities -->
+    <!-- Depend on commons-configuration which transitively brings commons-collections:3.2.1 -->
     <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-      <version>3.2.1</version>
+      <groupId>commons-configuration</groupId>
+      <artifactId>commons-configuration</artifactId>
+      <version>1.6</version>
     </dependency>
   </dependencies>
 </project>
