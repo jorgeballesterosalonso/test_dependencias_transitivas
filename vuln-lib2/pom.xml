@@ -14,11 +14,11 @@
   <name>vuln-lib2</name>
 
   <dependencies>
-    <!-- BeanUtils older versions are known to have vulnerabilities when combined with other libraries -->
+    <!-- Depend on commons-digester which transitively brings commons-beanutils:1.7.0 -->
     <dependency>
-      <groupId>commons-beanutils</groupId>
-      <artifactId>commons-beanutils</artifactId>
-      <version>1.8.3</version>
+      <groupId>commons-digester</groupId>
+      <artifactId>commons-digester</artifactId>
+      <version>1.8</version>
     </dependency>
   </dependencies>
 </project>
