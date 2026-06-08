@@ -1,0 +1,4 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/" # Apunta a la raíz para que lea el padre y los submódulos juntos
